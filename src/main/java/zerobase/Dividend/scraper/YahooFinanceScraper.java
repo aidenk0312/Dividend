@@ -62,7 +62,6 @@ public class YahooFinanceScraper implements Scraper {
             scrapResult.setDividends(dividends);
 
         } catch (IOException e) {
-            // TODO
             e.printStackTrace();
         }
         return  scrapResult;
