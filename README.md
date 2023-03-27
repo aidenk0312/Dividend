@@ -13,20 +13,27 @@
 ## 3. 프로젝트 구조
   1) Controller
     - AuthController: 회원가입 및 로그인 기능을 담당하는 컨트롤러입니다.
+    
     - CompanyController: 회사 정보와 관련된 기능을 담당하는 컨트롤러입니다.
+    
     - FinanceController: 재무 정보와 관련된 기능을 담당하는 컨트롤러입니다.
-
+    
   2) Service
     - MemberService: 회원 관련 서비스입니다.
+    
     - FinanceService: 재무 정보 관련 서비스입니다.
+    
     - CompanyService: 회사 정보 관련 서비스입니다.
-
+    
   3) Security
     - SecurityConfiguration: 웹 보안 설정입니다.
+    
     - JwtAuthenticationFilter: JWT 토큰 인증 필터입니다.
+    
     - TokenProvider: JWT 토큰을 생성하고 검증하는 기능을 담당하는 클래스입니다.
 
   4) Web Scraping
+  
     - YahooFinanceScraper: Yahoo Finance에서 회사와 배당금 정보를 스크래핑하는 클래스입니다.
     
 ## 4. 기능 설명
